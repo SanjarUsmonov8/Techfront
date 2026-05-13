@@ -8,7 +8,7 @@ const slides = [
 
 export default function TechCarousel() {
   return (
-    <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 px-[10%] h-180 no-scrollbar">
+    <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 px-0 h-180 no-scrollbar">
       {slides.map((slide) => (
         <div key={slide.id} className="flex-none w-[80vw] snap-center relative group">
           

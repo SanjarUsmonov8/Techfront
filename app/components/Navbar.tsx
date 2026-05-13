@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/button-group"
 import { useState, useEffect } from "react"
 import Types from "./Types"
+import Link from "next/link"
 
 
 export default function Navbar() {
@@ -48,11 +49,12 @@ export default function Navbar() {
             )}
             <div className={`sticky z-40 flex items-center justify-center gap-50 p-8 transition-all duration-300 ml-17 mr-4 rounded-2xl ${isScrolled ? "top-3 bg-white/40 backdrop-blur-md" : "top-0 mt-2"}`}>
                 <div className="flex -mt-5">
-                    <div className="flex items-center">
-                        <img className="h-20 rounded-4xl" src="https://static.vecteezy.com/system/resources/thumbnails/013/760/485/small/abstract-connection-logo-illustration-in-trendy-and-minimal-style-png.png" alt="" />
-                        <h1 className="text-5xl font-bold pl-3">Tech°</h1>
-                    </div>
-
+                    <Link href="/">
+                        <div className="flex items-center">
+                            <img className="h-20 rounded-4xl" src="https://static.vecteezy.com/system/resources/thumbnails/013/760/485/small/abstract-connection-logo-illustration-in-trendy-and-minimal-style-png.png" alt="" />
+                            <h1 className="text-5xl font-bold pl-3">Tech°</h1>
+                        </div>
+                    </Link>
                 </div>
                 <div className="">
                     <Field className="w-100 bg-white/40 rounded-2xl" orientation="horizontal">
@@ -88,14 +90,14 @@ export default function Navbar() {
                 </div>
                 <div className="fixed flex w-330 h-px mt-18 bg-stone-300"></div>
                 <div className="fixed flex gap-15 pt-25 justify-around text-stone-600">
-                    <h1>Phones</h1>
-                    <h1>Laptops</h1>
-                    <h1>TV</h1>
-                    <h1>Vacuum Cleaners</h1>
-                    <h1>Washing Machines</h1>
-                    <h1>Fridges</h1>
-                    <h1>Accessories</h1>
-                    <h1>Others</h1>
+                    <Link href="/phone">Phones</Link>
+                    <Link href="/laptops">Laptops</Link>
+                    <Link href="/tv">TV</Link>
+                    <Link href="/vc">Vacuum Cleaners</Link>
+                    <Link href="/wm">Washing Machines</Link>
+                    <Link href="/fridge">Fridges</Link>
+                    <Link href="/acc">Accessories</Link>
+                    <Link href="/other">Others</Link>
                 </div>
             </div>
         </>

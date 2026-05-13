@@ -15,7 +15,7 @@ export default function Page() {
       <Navbar/>
       <div className="-mt-7"> <Headimg/></div>
       <div className="flex justify-center pt-5 text-4xl font-bold"><h1>With our store your life becomes like a dream°</h1></div>
-      <div className="p-8 w-full"><Carousel1/></div>
+      <div className="py-8 w-full"><Carousel1/></div>
       <div><Lent/></div>
       <div className="flex justify-center pt-5 text-4xl font-bold"><h1>Our Best Sellers</h1></div>
       <div><Card1/></div>

@@ -58,7 +58,7 @@ export default async function PhonesDetailPage({ params }: { params: { id: strin
 
           <div className="pt-6 flex gap-4">
             <Button size="lg" className="flex-1 h-14 text-lg font-bold">
-              Sotib olish
+             <Link href="/contact">Buy Now</Link>
             </Button>
             <Button size="lg" variant="outline" className="h-14 px-8">
               ♡

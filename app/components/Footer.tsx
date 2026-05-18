@@ -69,10 +69,10 @@ export default function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h4 className="text-gray-900 font-semibold mb-4">Contact</h4>
+                        <a href="/contact" className="text-gray-900 font-semibold mb-4">Contact</a>
                         <ul className="space-y-2 text-sm">
                             <li><a href="mailto:info@tech.com" className="text-gray-600 hover:text-gray-900 transition">info@tech.com</a></li>
-                            <li><a href="tel:+1234567890" className="text-gray-600 hover:text-gray-900 transition">+1 (234) 567-890</a></li>
+                            <li><a href="tel:+998880019678" className="text-gray-600 hover:text-gray-900 transition">+998 (88) 001-9678</a></li>
                             <li className="text-gray-600">123 Tech Street</li>
                             <li className="text-gray-600">Tech City, TC 12345</li>
                         </ul>

@@ -20,9 +20,9 @@ export default function Three() {
                             <h2 className="text-xl font-bold border-b border-slate-700 pb-2">Settings</h2>
 
                             <nav className="flex flex-col gap-4">
-                                <a href="#" className="hover:text-blue-400 transition-colors">User Dashboard</a>
-                                <a href="#" className="hover:text-blue-400 transition-colors">Project Config</a>
-                                <a href="#" className="hover:text-blue-400 transition-colors">API Keys</a>
+                                <a href="/contact" className="hover:text-blue-400 transition-colors">Contact</a>
+                                <a href="#" className="hover:text-blue-400 transition-colors">History</a>
+                                <a href="#" className="hover:text-blue-400 transition-colors">Intoduction</a>
                                 <hr className="border-slate-700" />
                                 <a href="#" className="text-red-400 hover:text-red-300">System Logout</a>
                             </nav>
